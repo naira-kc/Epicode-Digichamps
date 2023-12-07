@@ -1,0 +1,58 @@
+{
+  "book": {
+    "title": "harry_potter_and_the_prisoner_of_azkaban",
+    "book_genres": "fantasy",
+    "publication_year":1999,
+    "ISBN":"0-439-13636-9",
+    "author": {
+      "nome":"j_k_rowling",
+      "address":{
+        "street":"Box_2,44-46_Morningside_Road",
+        "city":"London",
+        "zip_code":"12345"
+      }
+    },
+    "chapters": [
+      {
+        "number":1,
+        "title":"owl_post",
+        "pages":16
+      },
+      {
+        "number":2,
+        "title":"aunt_marges_big_mistake",
+        "pages":15
+      },
+      {
+        "number":3,
+        "title":"the_knight_bus",
+        "pages":18
+      },
+      {
+        "number":4,
+        "title":"the_leaky_cauldron",
+        "pages":20
+      },
+      {
+        "number":5,
+        "title":"the_dementor",
+        "pages":30
+      },
+      {
+        "number":6,
+        "title":"talons_and_tea_leaves",
+        "pages":27
+      },
+      {
+        "number":7,
+        "title":"the_boggart_in_the_wardrobe",
+        "pages":18
+      },
+      {
+        "number":8,
+        "title":"flight_of_the_fat_lady",
+        "pages":20
+      }
+    ]
+  }
+}
