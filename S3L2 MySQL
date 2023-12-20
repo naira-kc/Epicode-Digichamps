@@ -1,0 +1,73 @@
+-- create a table
+CREATE TABLE Aereoporto (
+    citta VARCHAR(255) PRIMARY KEY,
+    nazione TEXT NOT NULL,
+    numpiste INTEGER
+);
+-- insert some values into table Aeroporto
+INSERT INTO Aereoporto VALUES ('Fiumicino', 'Italia', 3);
+INSERT INTO Aereoporto VALUES ('Parigi', 'Francia', 2);
+INSERT INTO Aereoporto VALUES ('Santa Cruz', 'Bolivia', 3);
+INSERT INTO Aereoporto VALUES ('New York', 'USA', 5);
+INSERT INTO Aereoporto VALUES ('Beijing', 'Cina', NULL);
+INSERT INTO Aereoporto VALUES ('Torino', 'Italia', 2);
+INSERT INTO Aereoporto VALUES ('Lisbona', 'Portogallo', 1);
+INSERT INTO Aereoporto VALUES ('La Paz', 'Bolivia', NULL);
+INSERT INTO Aereoporto VALUES ('Miami', 'USA', 4);
+INSERT INTO Aereoporto VALUES ('Melbourne', 'Australia', NULL);
+
+-- create a table
+CREATE TABLE Volo (
+    IdVolo VARCHAR(10) PRIMARY KEY,
+    GiornoSett VARCHAR(10) NOT NULL,
+    CittaPart VARCHAR(20) NOT NULL,
+    OraPart TIME NOT NULL,
+    CittaArr VARCHAR(20) NOT NULL,
+    OraArr TIME NOT NULL,
+    TipoAereo VARCHAR(50),
+    FOREIGN KEY (CittaPart) REFERENCES Aereoporto(citta)
+    );
+-- insert some values into table Volo
+INSERT INTO Volo (IdVolo, GiornoSett, CittaPart, OraPart, CittaArr, OraArr, TipoAereo)
+VALUES
+    ('AZ274', 'Lunedì', 'Fiumicino', '08:00', 'Parigi', '10:30', 'Airbus A320'),
+    ('AZ222', 'Martedì', 'Parigi', '09:15', 'Santa Cruz', '10:45', 'Boeing 737'),
+    ('AZ311', 'Mercoledì', 'Santa Cruz', '11:30', 'New York', '13:00', 'Airbus A330'),
+    ('AZ272', 'Giovedì', 'New York', '14:45', 'Beijing', '17:30', 'Boeing 747'),
+    ('AZ555', 'Venerdì', 'Beijing', '18:00', 'Bologna', '21:15', 'Airbus A380'),
+    ('AZ666', 'Sabato','Torino', '15:25','Bologna','16:25', 'Boeing 737'),
+    ('AZ277', 'Domenica', 'Lisbona', '01:00', 'Vienna', '02:30', 'Airbus A320'),
+    ('AZ888', 'Lunedì', 'La Paz', '03:45', 'Bruxelles', '05:15', 'Boeing 747'),
+    ('AZ275', 'Martedì', 'Miami', '06:30', 'Lisbona', '08:00', 'Airbus A330'),
+    ('AZ101', 'Mercoledì', 'Melbourne', '09:45', 'Roma', '11:15', 'Boeing 737');
+
+-- create a table
+CREATE TABLE AEREO (
+    TipoAereo VARCHAR(50) PRIMARY KEY,
+    NumPasseggeri INTEGER,
+    QtaMerci INTEGER
+    );
+-- insert some values into table AEREO
+INSERT INTO AEREO (TipoAereo, NumPasseggeri, QtaMerci)
+VALUES 
+  ('Airbus A320', 150, 5000),
+  ('Boeing 737', 400, 3000),
+  ('Airbus A330', 200, 7000),
+  ('Boeing 747', 500, 10000),
+  ('Airbus A380', 140, 15000);
+
+SELECT Citta
+FROM Aereoporto
+WHERE NumPiste IS NULL;
+
+SELECT TipoAereo
+FROM Volo
+WHERE CittaPart = 'Torino';
+
+SELECT CittaPart
+FROM Volo
+WHERE CittaArr = 'Bologna';
+
+SELECT CittaPart, CittaArr
+FROM Volo
+WHERE IdVolo = 'AZ274';
