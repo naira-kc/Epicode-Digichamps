@@ -1,0 +1,50 @@
+
+Task 1: Fare la spesa per casa
+
+1.Controllare la dispensa.
+2.Creare una lista della spesa con gli articoli necessari.
+3.Prendere borsa o carrello per la spesa.
+4.Uscire da casa.
+5.Recarsi al supermercato.
+6.Seguire la lista e raccogliere gli articoli scritti in questa.
+7.Verificare la data di scadenza dei prodotti deperibili.
+8.Passare alla cassa per il pagamento.
+9.Imballare gli acquisti nel carrello o nella borsa.
+10.Tornare a casa.
+11.Sistemare gli articoli acquistati nei luoghi appropriati (frigorifero, dispensa, ecc.).
+
+Task 2: Acquistare uno snack da un distributore automatico
+
+1.Identificare il distributore automatico più vicino.
+2.Verificare di avere monete o una carta di pagamento.
+3.Scegliere lo snack desiderato dal menu del distributore.
+4.Inserire le monete o la carta nel distributore.
+5.Seguire le istruzioni del distributore per selezionare lo snack.
+6.Attendere che lo snack venga erogato e raccoglierlo.
+7.Verificare che lo snack sia integro e non danneggiato.
+8.Nel caso di pagamento con carta, assicurarsi di ritirare la carta.
+9.Se necessario, gettare eventuali rifiuti nell'apposito contenitore.
+10.Gustare lo snack o portarlo con sé.
+
+Task 3: Riempire il servatoio dell'auto
+
+1.Posizionare l'auto in modo che il lato del serbatoio sia accessibile alla pompa del distributore di carburante.
+2.Spegnere il motore dell'auto e assicurarsi di avere le chiavi con sé.
+3.Recarsi al distributore di carburante più vicino.
+4.Selezionare il tipo di carburante corretto in base alle raccomandazioni del manuale dell'auto.
+5.Inserire la carta di pagamento nel distributore o denaro contante, se necessario.
+6.Scegliere la modalità di erogazione del carburante (importo fisso o importo massimo).
+7.Tornare verso l'auto.
+8.Aprire il tappo del serbatoio del carburante.
+9.Inserire il beccuccio della pistola del distributore nel bocchettone del serbatoio dell'auto.
+10.Attivare la pompa di erogazione del carburante e attendere che il serbatoio si riempia.
+11.Monitorare attentamente il livello del carburante per evitare traboccamenti.
+12.Una volta completato il rifornimento, rimuovere la pistola, chiudere il tappo del serbatoio e assicurarsi che sia ben chiuso.
+13.Conservare lo scontrino del rifornimento se necessario per scopi contabili.
+14.Allontanarsi dal distributore in modo sicuro.
+15.Riaccendere il motore dell'auto e verificare che il livello del carburante sia stato aggiornato correttamente sul cruscotto.
+
+
+
+
+
